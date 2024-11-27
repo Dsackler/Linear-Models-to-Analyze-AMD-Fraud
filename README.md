@@ -26,6 +26,8 @@ The resulting dataset contains **3,700 rows**. I then considered the following r
 **Answer:**  
 I ran the regression for AMD stock returns using only the data from the year 2022. Below is the results table.
 
+![Summary_Table](https://github.com/Dsackler/Analysis_of_AMD_Fraud/blob/main/images/Summary%20table%201.png)
+
 ### Question: How should the parameters β₀, β₁, and β₂ in the 2022 regression model be interpreted? Are these parameters statistically significant at a 10% significance level? What does the R² value indicate about the model's explanatory power?
 **Answer:**  
 The parameters from the regression model can be interpreted as follows:
@@ -92,6 +94,8 @@ The model passes the tests for autocorrelation and heteroskedasticity but fails 
 **Answer:**  
 I re-ran the regression model using data from this period. Below is the results table.
 
+![Result_Table_2](https://github.com/Dsackler/Analysis_of_AMD_Fraud/blob/main/images/Summary%20table%202.png)
+
 - **β₀ (Intercept):**  
   - **Value:** -0.0021 (slightly larger in magnitude compared to the prior model).  
   - **P-value:** 0.11479 (greater than 0.1).  
@@ -139,6 +143,8 @@ While the model satisfies the assumptions of no autocorrelation and homoskedasti
 
 ### Question: Predict how AMD shares would be expected to move on 2012-10-12 and 2012-10-19. Construct 95% confidence intervals for these predictions. 
 The below chart contains the return and confidence interval information.
+
+![Conf_chart](https://github.com/Dsackler/Analysis_of_AMD_Fraud/blob/main/images/Return%20and%20conf.png)
 
 ***Conclusion and interpretation***
 
